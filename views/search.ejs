@@ -1,0 +1,98 @@
+<html>
+<head>
+</head>
+
+<body>
+
+<div id="layout">
+    
+
+    <div id="main">
+        
+
+        <div class="content">
+            <h2 class="content-subhead">Search</h2>
+            <p>
+            </p><form class="pure-form" method="POST" action="/upload/search">
+                <fieldset>
+                    <legend>Search by course name, code!</legend>
+
+                    <div class="pure-control-group">
+                        <label for="dept">Course Code</label>
+                        <select id="dept" name="dept" required="">
+                             <option>AE</option>
+                             <option>ART</option>
+                             <option>BSE</option>
+                             <option>CE</option>
+                             <option>CHE</option>
+                             <option>CHM</option>
+                             <option>CS</option>
+                             <option>DES</option>
+                             <option>ECO</option>
+                             <option>EE</option>
+                             <option>EEM</option>
+                             <option>ENG</option>
+                             <option>ES</option>
+                             <option>ESC</option>
+                             <option>ESO</option>
+                             <option>IME</option>
+                             <option selected="selected">PHY</option>
+                             <option>LIF</option>
+                             <option>LT</option>
+                             <option>MBA</option>
+                             <option>ME</option>
+                             <option>MSE</option>
+                             <option>MSO</option>
+                             <option>MTH</option>
+                             <option>NT</option>
+                             <option>PHI</option>
+                             <option>PHY</option>
+                             <option>PSY</option>
+                             <option>SE</option>
+                             <option>SOC</option>
+                             <option>TA</option>
+                        </select>                        
+
+                        <input id="coursecode" type="text" placeholder="103" name="coursecode" required="">
+                        <select id="category" name="category" required="">
+                            <option>Assignment</option>
+                            <option>Quiz</option>
+                            <option>Mid Sem</option>
+                            <option>End Sem</option>
+                            <option>E-Book</option>
+                            <option>Other</option>
+                            <option>All</option>
+                        </select>                      
+                        <button type="submit" class="pure-button pure-button-primary">Search</button>                    
+                    </div>
+                </fieldset>
+
+            </form>            
+            <p></p>
+        </div>
+
+        
+    </div>
+    <script type="text/javascript">
+    console.log("a");
+    </script>
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript">
+    // console.log($('#dept'));
+    // function myfunction () {
+    //     event.preventDefault();
+    //     var req = {};
+    //     req["dept"] = $("#dept").val();
+    //     req["coursecode"] = $("#coursecode").val();
+    //     req["category"] = $("#category").val();
+    //     console.log(req);
+    //     $.post('search', {
+    //         data: req
+    //     }).done(function(data){
+    //         console.log(data);
+    //     });
+    // }
+    </script>
+</div>
+</body>
+</html>

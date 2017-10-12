@@ -1,0 +1,46 @@
+<html>
+<head>
+</head>
+
+<body>
+
+<div id="layout">
+    
+<%= for(var i=0; i<courseslength; i++) {
+        courses[i];
+    }%>
+    <div id="main">
+        
+
+        <div class="content">
+            <h2 class="content-subhead">Add Course</h2>
+            <p>
+            </p><form class="pure-form" method="POST">
+                <fieldset>
+                    
+
+                    <div class="pure-control-group">
+                                          
+
+                        <input id="coursecode" type="text" placeholder="PHY103" name="coursecode" required="">
+                    
+                    
+                        <input id="hour" name="hour" placeholder="" type="number" required="">
+
+                        <input id="minutes" name="minutes" placeholder="" type="number" required="">
+
+                                          
+                        <button type="submit" class="pure-button pure-button-primary">Add Course</button>                    
+                    </div>
+                </fieldset>
+
+            </form>            
+            <p></p>
+        </div>
+
+        
+    </div>
+
+</div>
+</body>
+</html>

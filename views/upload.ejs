@@ -1,0 +1,110 @@
+<html>
+<head>
+
+</head>
+
+<body>
+
+<div id="layout">
+    <!-- Menu toggle -->
+    
+   
+
+    <div id="main">
+        
+
+        
+
+        <div class="content">
+            <form class="pure-form pure-form-aligned" method="POST" action="/upload" enctype="multipart/form-data">
+               <!-- enctype="multipart/form-data" -->
+                <fieldset>
+                    <legend>Upload Form</legend>
+                    
+                    
+
+                    <div class="pure-control-group">
+                        <label for="dept">Course Code</label>
+                        <select id="dept" name="dept" required="">
+                             <option>AE</option>
+                             <option>ART</option>
+                             <option>BSE</option>
+                             <option>CE</option>
+                             <option>CHE</option>
+                             <option>CHM</option>
+                             <option>CS</option>
+                             <option>DES</option>
+                             <option>ECO</option>
+                             <option>EE</option>
+                             <option>EEM</option>
+                             <option>ENG</option>
+                             <option>ES</option>
+                             <option>ESC</option>
+                             <option>ESO</option>
+                             <option>IME</option>
+                             <option selected="selected">PHY</option>
+                             <option>LIF</option>
+                             <option>LT</option>
+                             <option>MBA</option>
+                             <option>ME</option>
+                             <option>MSE</option>
+                             <option>MSO</option>
+                             <option>MTH</option>
+                             <option>NT</option>
+                             <option>PHI</option>
+                             <option>PHY</option>
+                             <option>PSY</option>
+                             <option>SE</option>
+                             <option>SOC</option>
+                             <option>TA</option>                        
+
+                        </select><input id="coursecode" type="text" placeholder="103" name="coursecode" required="">
+                    </div>                                   
+
+
+                    <div class="pure-control-group">
+                        <label for="category">Category</label>
+                        <select id="category" name="category" required="">
+                            <option>Assignment</option>
+                            <option>Quiz</option>
+                            <option>Mid Sem</option>
+                            <option>End Sem</option>
+                            <option>E-Book</option>
+                            <option>Other</option>
+                        </select>                        
+                    </div>
+
+                    <div class="pure-control-group">
+                        <label for="year">Year</label>
+                        <input id="year" type="text" placeholder="2014" name="year">
+                    </div>                    
+
+                    <div class="pure-control-group">
+                        <label for="prof">Professor</label>
+                        <input id="prof" type="text" placeholder="Dr.Harish Karnick" name="prof">
+                    </div> 
+
+                    <div class="pure-control-group">
+                        <label for="desc">Description</label>
+                        <textarea id="desc" type="text" placeholder="" name="desc"></textarea> 
+                    </div> 
+
+                 
+
+                    <div class="pure-control-group">
+                        <label for="file">File</label>
+                        <input id="file" type="file" placeholder="File Upload" name="file" required="" multiple>
+                    </div>
+
+                    <div class="pure-controls">
+                        <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

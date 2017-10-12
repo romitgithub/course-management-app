@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+    <!--[if IE 9 ]><html class="ie9"><![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Regrob | Password has been reset</title>
+        
+        <!-- Vendor CSS -->
+        <link href="/alpha/vendors/animate-css/animate.min.css" rel="stylesheet">
+        <link href="/alpha/vendors/sweet-alert/sweet-alert.min.css" rel="stylesheet">
+        <link href="/alpha/vendors/material-icons/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="/alpha/vendors/socicon/socicon.min.css" rel="stylesheet">
+            
+        <!-- CSS -->
+        <link href="/alpha/css/app.min.1.css" rel="stylesheet">
+        <link href="/alpha/css/app.min.2.css" rel="stylesheet">
+    </head>
+    
+    <body class="login-content">
+        <!-- Login -->
+
+        <div class="lc-block toggled" id="l-login">
+        <form id="signup-form" method="POST" >
+            
+            <div class="input-group m-b-20">
+                <span class="input-group-addon"><i class="md md-accessibility"></i></span>
+                <div class="fg-line">
+                <input type="hidden" name="_csrf" value="<%=_csrf%>">
+                  <input type="password" name="password" id="password" placeholder="New Password" class="form-control">
+                  </div>
+            </div>
+             <div class="input-group m-b-20">
+                <span class="input-group-addon"><i class="md md-accessibility"></i></span>
+                <div class="fg-line">
+                  <input type="password" name="confirm" id="confirmPassword" placeholder="Confirm Password" class="form-control">
+            </div>
+            </div>
+            
+            <button type="submit" class="btn btn-login btn-danger btn-float"><i class="md md-arrow-forward"></i></button>
+            </form>        </div>
+      
+        
+        <!-- Older IE warning message -->
+        <!--[if lt IE 9]>
+            <div class="ie-warning">
+                <h1 class="c-white">IE SUCKS!</h1>
+                <p>You are using an outdated version of Internet Explorer, upgrade to any of the following web browser <br/>in order to access the maximum functionality of this website. </p>
+                <ul class="iew-download">
+                    <li>
+                        <a href="http://www.google.com/chrome/">
+                            <img src="img/browsers/chrome.png" alt="">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="img/browsers/firefox.png" alt="">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.opera.com">
+                            <img src="img/browsers/opera.png" alt="">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/safari/">
+                            <img src="img/browsers/safari.png" alt="">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="img/browsers/ie.png" alt="">
+                            <div>IE (New)</div>
+                        </a>
+                    </li>
+                </ul>
+                <p>Upgrade your browser for a Safer and Faster web experience. <br/>Thank you for your patience...</p>
+            </div>   
+        <![endif]-->
+        
+        <!-- Javascript Libraries -->
+        <script src="/alpha/js/jquery-2.1.1.min.js"></script>
+        <script src="/alpha/js/bootstrap.min.js"></script>
+        
+        <script src="/alpha/vendors/waves/waves.min.js"></script>
+        
+        <script src="/alpha/js/functions.js"></script>
+        
+    </body>
+</html>

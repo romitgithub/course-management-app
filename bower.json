@@ -1,0 +1,22 @@
+{
+  "name": "shareiitk",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bhanuc/regrob",
+  "authors": [
+    "gouthamkreddy <greddy@iitk.ac.in>"
+  ],
+  "description": "web app",
+  "main": "app.js",
+  "license": "MIT",
+  "directory": "/public/vendor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "social-share-kit": "https://github.com/darklow/social-share-kit.git#~1.0.4"
+  }
+}
